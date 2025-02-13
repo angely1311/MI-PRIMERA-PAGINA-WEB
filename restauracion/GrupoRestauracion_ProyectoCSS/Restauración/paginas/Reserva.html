@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html class="reserva">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas - La Tierra Gourmet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+<body>
+
+                                <!-- Contenedor Principal -->
+    <div id="contenedor-principal">
+        
+                                    <!-- Título y Logo -->
+        <div id="contenedor-titulo">
+            <header>
+                <div class="titulo">
+                    <h1>La Tierra Gourmet</h1>
+                </div>
+                <div class="imagentitulo">
+                    <img src="../img/plato.PNG" class="logo" alt="logo">
+                </div>
+            </header>
+            <div style="clear:both"></div>
+        </div>
+
+        <!-- Navegación -->
+        <div id="navegacion">
+            <nav>
+                <a href="../Index.html">Inicio</a>
+                <a href="../paginas/Menu-boreal.html">Menú Boreal</a>
+                <a href="../paginas/Menu-Andaluzi.html">Menú Andaluzí</a>
+                <a href="../paginas/Menu del Oeste.html">Menú Oeste</a>
+                <a href="../paginas/MENU DE ESTE.html">Menú Este</a>
+                <a href="../paginas/Reserva.html">Reserva</a>
+            </nav>
+        </div>
+
+                                <!-- Contenedor de Reserva -->
+        <div class="container">
+            <div class="formulario">
+                <h2>Realice su Reserva</h2>
+                <form action="submit_reservation.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tlfno">Teléfono:</label>
+                        <input type="number" id="tlfno" name="tlfno" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fecha">Día de Reserva:</label>
+                        <input type="date" id="fecha" name="fecha" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="hora">Hora de la Reserva:</label>
+                        <input type="time" id="hora" name="hora" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="guests">Número de Comensales:</label>
+                        <select id="guests" name="guests" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="menu">Menú:</label>
+                        <select id="menu" name="menu" required>
+                            <option value="boreal">Boreal</option>
+                            <option value="andaluz">Andaluzi</option>
+                            <option value="saludable">Oeste</option>
+                            <option value="fitness">Este</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="alergenos">Notificanos sobre tus Alergias</label>
+                        <input type="text" id="alergenos" name="alergenos">
+                    </div>
+
+                    <button type="submit">Hacer Reserva</button>
+                </form>
+            </div>
+        </div>
+
+                        <!-- Footer -->
+        <footer class="pie_pagina">
+            <p>&copy; 2024 latierragourmet.com</p>
+            <p>Todos los derechos reservados.</p>
+            <p>tlfno: 578-09-65-44</p>
+            <p>C/ Calle Real 96</p>
+        </footer>
+
+    </div> 
+        <!-- fin contenedor-principal -->
+</body>
+</html>
