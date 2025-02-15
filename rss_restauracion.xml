@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RSS de Angely Carrazco</title>
     <link>https://angely1311.github.io.</link>
@@ -7,48 +7,53 @@
     <language>es</language>
 
     <image>
-      <url>https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/img/WhatsApp%20Image%202024-11-21%20at%2013.24.37.jpeg</url> <!-- URL de la imagen -->
-      <title>La Tierra Gourmet</title> 
-      <link>https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/Index.html</link> 
+      <url>https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/img/WhatsApp%20Image%202024-11-21%20at%2013.24.37.jpeg</url> 
+      <title>RSS de Angely Carrazco</title> 
+      <link>https://angely1311.github.io.</link>
     </image>
+
+    <atom:link href="https://angely1311.github.io/MI-PRIMERA-PAGINA-WEB/rss_restauracion.xml" rel="self" type="application/rss+xml" />
+
 
     <item>
         <title>Risotto de Setas Salvajes con Esferas de Tomillo</title>
-        <link>https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/paginas/Menu-boreal.html</link> 
+        <link>https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/paginas/Menu-boreal.html</link>
+         <guid>https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/paginas/Menu-boreal.html</guid> 
         <description>
             Un risotto cremoso preparado con setas salvajes y esferas de tomillo que le aportan un sabor fresco y un toque especial. Ideal para los amantes de la cocina gourmet.
         </description>
-        <enclosure url="https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/img/pexels-cottonbro-4253312.jpg" type="image/jpeg"/>
+        <enclosure url="https://angely1311.github.io/MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/img/pexels-cottonbro-4253312.jpg" type="image/jpeg" length="12345"/>
     </item>
 
     <item>
         <title>Rabo de Toro al Whisky con Verduras Torneadas con Aceite de Sésamo</title>
-        <link>https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/paginas/Menu-Andaluzi.html</link> 
+        <link>https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/paginas/Menu-Andaluzi.html</link>
+        <guid>https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/paginas/Menu-Andaluzi.html</guid> 
         <description>
             Disfruta de un exquisito rabo de toro cocinado al whisky, acompañado de verduras torneadas con aceite de sésamo. Un plato que combina tradición y sabor único.
         </description>
-        <enclosure url="restauracion/GrupoRestauracion_ProyectoCSS/Restauración/img/pexels-samantha-samantha-gilmore-1903734739-29608929.jpg" type="image/jpeg"/>
+        <enclosure url="https://angely1311.github.io/MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/img/pexels-samantha-samantha-gilmore-1903734739-29608929.jpg" type="image/jpeg" length="12345"/>
      </item>
 
     <item>
         <title>Rabo de Toro Estofado</title>
         <link>https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/paginas/Menu%20del%20Oeste.html</link>
+        <guid>https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/paginas/Menu%20del%20Oeste.html</guid>
         <description>
             Un plato tradicional andaluz: Rabo de toro estofado con verduras y un toque de vino tinto. Sabor intenso y una textura increíble.
         </description>
-        <enclosure url= "https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/img/RABO%20DE%20TORO.JPG" type="image/jpeg"/>
+        <enclosure url= "https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/img/RABO%20DE%20TORO.JPG" type="image/jpeg" length="12345"/>
     </item>
 
     <item>
         <title>Fideuá de Gandía</title>
         <link>https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/paginas/MENU%20DE%20ESTE.html</link> 
+        <guid>https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/paginas/MENU%20DE%20ESTE.html</guid>
         <description>
           Fideos finos cocinados con mariscos y pescado, acompañados de alioli, un plato típico de Gandía que te transportará al Mediterráneo.
         </description>
-        <enclosure url="https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/img/fideuadegandia.jpg"  type="image/jpeg"/>
+        <enclosure url="https://angely1311.github.io./MI-PRIMERA-PAGINA-WEB/restauracion/GrupoRestauracion_ProyectoCSS/Restauraci%C3%B3n/img/fideuadegandia.jpg"  type="image/jpeg" length="12345"/>
     </item>
-
-
 
   </channel>
 </rss>
